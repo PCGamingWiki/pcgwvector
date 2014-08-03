@@ -18,7 +18,6 @@ $wgExtensionCredits['skin'][] = array (
 );
 
 $wgValidSkinNames['pcgwvector'] = 'PCGWVector';
-$wgPCGWVectorGoogleAds = "test";
 
 $wgHooks['GetPreferences'][] = 'wfPrefHook';
 
