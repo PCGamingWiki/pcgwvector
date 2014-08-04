@@ -11,10 +11,10 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['skin'][] = array (
 	'path'				=> __FILE__,
 	'name'				=> 'PCGW Vector',
-	'url'				=> "",
-	'author'			=>  array( 'Stanisław Gackowski', 'Andrew Tsai'),
 	'descriptionmsg'	=> 'pcgwvector-desc',
-	'license'			=> 'GPL-2.0+',
+	'author'			=> array( 'Stanisław Gackowski', 'Andrew Tsai'),
+	'url'				=> "https://github.com/PCGamingWiki/pcgwvector",
+	'license-name'		=> 'GPL-2.0+',
 );
 
 $wgValidSkinNames['pcgwvector'] = 'PCGWVector';

@@ -150,64 +150,64 @@ class PCGWVectorTemplate extends BaseTemplate {
 		// Output HTML Page
 		$this->html( 'headelement' );
 ?>
-			<!-- custom CSS -->
-			<style>
-			body { background: #E5ECF9}
+	<!-- custom CSS -->
+	<style>
+	body { background: #E5ECF9}
 
-			/* Header */
-			#header_area { position:absolute; top:2.25em }
-			#wrapper { margin:0 auto; margin-bottom:80px }
-			.main_width { width:94% !important; min-width:960px; margin:0 auto }
-			#content_box { width:94% !important; min-width:960px; margin:0 auto; position:relative; padding:0 10px }
-			#mw-page-base { background:none }
+	/* Header */
+	#header_area { position:absolute; top:2.25em }
+	#wrapper { margin:0 auto; margin-bottom:80px }
+	.main_width { width:94% !important; min-width:960px; margin:0 auto }
+	#content_box { width:94% !important; min-width:960px; margin:0 auto; position:relative; padding:0 10px }
+	#mw-page-base { background:none }
 
-			#login_bar {
-				background:#323232 url(http://community.pcgamingwiki.com/public/style_images/master/user_navigation.png) repeat-x bottom; 
-				width:100%; height:2.25em; position:absolute; top:0; padding:0; 
-			}
+	#login_bar {
+		background:#323232 url(http://community.pcgamingwiki.com/public/style_images/master/user_navigation.png) repeat-x bottom; 
+		width:100%; height:2.25em; position:absolute; top:0; padding:0; 
+	}
 
-			/* Log in  */
-			#p-personal { position:inherit; float:right; margin-top:0.3em }
-			#p-personal li a, #p-personal li a:hover { color:white }
-			li#pt-openidlogin { display:none; background:none; padding-left:0; margin-left:3px; text-transform:none; color:white }
+	/* Log in  */
+	#p-personal { position:inherit; float:right; margin-top:0.3em }
+	#p-personal li a, #p-personal li a:hover { color:white }
+	li#pt-openidlogin { display:none; background:none; padding-left:0; margin-left:3px; text-transform:none; color:white }
 
-			/* Content height */
-			#mw-head-base { margin-top:6em; height:2.5em }
-			div#mw-head, div#mw-panel { top:0 }
-			#left-navigation, #right-navigation { margin-top:0 }
-			#left-navigation { margin-left:11.65em }
-			div#content { padding:0.8em 0 0.8em 0.75em; margin-left:11.02em }
-			#p-search { margin-right:0.7em }
+	/* Content height */
+	#mw-head-base { margin-top:6em; height:2.5em }
+	div#mw-head, div#mw-panel { top:0 }
+	#left-navigation, #right-navigation { margin-top:0 }
+	#left-navigation { margin-left:11.65em }
+	div#content { padding:0.8em 0 0.8em 0.75em; margin-left:11.02em }
+	#p-search { margin-right:0.7em }
 
-			/* Content box */
-			#content_box { 
-				-webkit-box-shadow:0 5px 9px rgba(0,0,0,0.1); -moz-box-shadow:0 5px 9px rgba(0,0,0,0.1); box-shadow:0 5px 9px rgba(0,0,0,0.1);
-				-moz-border-radius:3px; border-radius:3px; background:white }
+	/* Content box */
+	#content_box {
+		-webkit-box-shadow:0 5px 9px rgba(0,0,0,0.1); -moz-box-shadow:0 5px 9px rgba(0,0,0,0.1); box-shadow:0 5px 9px rgba(0,0,0,0.1);
+		-moz-border-radius:3px; border-radius:3px; background:white }
 
-			/* Navigation */
-			#primary_nav { width:100%; height:1.9em; position:absolute; top:9.2em; left:0em}
-			#community_app_menu { position: absolute; font-size:13px; min-width: 400px; border-bottom:1px solid white }
-			ul#community_app_menu.ipsList_inline { line-height:1.5em; margin:0; padding:0; list-style-image:none; list-style-type:none }
-			#community_app_menu>li { margin:0px 3px 0 0; position:relative; float:left }
-			#community_app_menu>li>a { color:#C5D5E2; background:#1C3B5F; display:block; padding:5px 15px 6px; text-shadow:0px 1px 1px rgba(0,0,0,0.5); border-top-left-radius:2px; border-top-right-radius:2px; }
-			#community_app_menu>li>a:hover, #community_app_menu>li>a.menu_active { text-decoration:none; background:#173455; color:white }
+	/* Navigation */
+	#primary_nav { width:100%; height:1.9em; position:absolute; top:9.2em; left:0em}
+	#community_app_menu { position: absolute; font-size:13px; min-width: 400px; border-bottom:1px solid white }
+	ul#community_app_menu.ipsList_inline { line-height:1.5em; margin:0; padding:0; list-style-image:none; list-style-type:none }
+	#community_app_menu>li { margin:0px 3px 0 0; position:relative; float:left }
+	#community_app_menu>li>a { color:#C5D5E2; background:#1C3B5F; display:block; padding:5px 15px 6px; text-shadow:0px 1px 1px rgba(0,0,0,0.5); border-top-left-radius:2px; border-top-right-radius:2px; }
+	#community_app_menu>li>a:hover, #community_app_menu>li>a.menu_active { text-decoration:none; background:#173455; color:white }
 
-			/* Sidebar */
-			div#mw-panel { padding-top:0.75em; width:11.6em; padding-left:0 }
-			div#mw-panel div.portal div.body ul li { line-height:0.8em }
-			.sidebar_header { color:#4D4D4D; font-size:12px; margin-left:10px; margin-top:10px }
+	/* Sidebar */
+	div#mw-panel { padding-top:0.75em; width:11.6em; padding-left:0 }
+	div#mw-panel div.portal div.body ul li { line-height:0.8em }
+	.sidebar_header { color:#4D4D4D; font-size:12px; margin-left:10px; margin-top:10px }
 
-			/* Print removal */
-			#t-print { display:none }
-			</style>
-			<!-- /custom CSS -->
-			<?php if($toggleIPBSidebar == true) { ?>
-			<!-- IPB stuff -->
-			<script type='text/javascript'>var _ccsjQ = jQuery;</script>
-			<link rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/ipc_blocks/compiled.css' />
-			<link rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/style_css/css_1/ipb_common.css' />
-			<!-- /IPB stuff -->
-			<?php } ?>
+	/* Print removal */
+	#t-print { display:none }
+	</style>
+	<!-- /custom CSS -->
+	<?php if($toggleIPBSidebar == true) { ?>
+	<!-- IPB stuff -->
+	<script type='text/javascript'>var _ccsjQ = jQuery;</script>
+	<link rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/ipc_blocks/compiled.css' />
+	<link rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/style_css/css_1/ipb_common.css' />
+	<!-- /IPB stuff -->
+	<?php } ?>
 		
 	<!-- custom header -->
 	<div style="background: #323232 url(http://community.pcgamingwiki.com/public/style_images/master/user_navigation.png) repeat-x bottom; width: 100%; padding:0; height:2.25em; position:absolute; top:0">
