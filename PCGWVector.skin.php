@@ -387,7 +387,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 			if($toggleQuotations == true) { ?>
 			<div style="position: relative; height: 0px; margin: 5px auto;" class="main_width">
 				<div style="margin-right: 5px; text-align: right;">
-					<span style="font-size: 14px; text-align: right; text-transform: uppercase; font-family: Georgia, Courier, serif;">
+					<span style="font-size: 16px; text-align: right; text-transform: uppercase; font-family: Courier, serif; font-weight: 400;">
 						<script language="JavaScript">
 							var Quotation=new Array() 
 							Quotation[0]  = "PC gaming since 2012";
