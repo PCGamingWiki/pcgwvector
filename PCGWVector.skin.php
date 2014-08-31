@@ -332,7 +332,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 			<?php } ?>
 		
 	<!-- custom header -->
-	<div style="background: #323232">
+	<div style="background: #323232; width: 100%; padding:0; height:2.25em; position:absolute; top:0">
 		<div class="main_width">
 			<?php $this->renderNavigation( 'PERSONAL' ); ?>
 		</div>
