@@ -389,37 +389,37 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<div style="float:right">
 					<span style="text-transform: uppercase;">
 						<script language="JavaScript">
-						var Quotation=new Array() 
-						Quotation[0]  = "PC gaming since 2012";
-						Quotation[1]  = "Welcome to PCGamingWiki, it's safer here";
-						Quotation[2]  = "To be this good will take Sega ages";
-						Quotation[3]  = "PCGamingWiki does what Nintendon't";
-						Quotation[4]  = "The right file in the wrong place can make all the difference in the world";
-						Quotation[5]  = "I'm Commander Shepard, and this is my favorite wiki on the citadel";
-						Quotation[6]  = "When life gives you lemons, post games fixes";
-						Quotation[7]  = "You must construct additional game fixes";
-						Quotation[8]  = "Look buddy, I'm an Engineer - that means I solve practical problems";
-						Quotation[9]  = "PC gaming, up to 6 billion players";
-						Quotation[10] = "Now you're playing with DESKTOP power";
-						Quotation[11] = "Our game fixes are Super Effective!";
-						Quotation[12] = "Now you're thinking with game fixes";
-						Quotation[13] = "...Reticulating Splines...";
-						Quotation[14] = "Hey cousin! Let's go play some PC Games";
-						Quotation[15] = "It's dangerous to go alone, take this";
-						Quotation[16] = "If you look anywhere else for game fixes, you're gonna have a bad time";
-						Quotation[17] = "Broken PC games? 'Aint nobody got time for that";
-						Quotation[18] = "PCGamingWiki, it's what PCs crave";
-						Quotation[19] = "Performing game calibrations";
-						Quotation[20] = "Yeah, we're still waiting for Half-Life 3 too";
-						Quotation[21] = "First you will fix your game, then there will be cake";
-						Quotation[22] = "Beep.  Beep.  Beep.  Beep.";
-						Quotation[23] = "Have you tried turning it off and on again?";
-						Quotation[24] = "It costs 400,000 dollars to power this wiki for 12 seconds";
-						Quotation[25] = "The Citizen Kane of video game wikis";
-						var Q = Quotation.length;
-						var whichQuotation=Math.round(Math.random()*(Q-1));
-						function showQuotation(){document.write(Quotation[whichQuotation]);}
-						showQuotation();
+							var Quotation=new Array() 
+							Quotation[0]  = "PC gaming since 2012";
+							Quotation[1]  = "Welcome to PCGamingWiki, it's safer here";
+							Quotation[2]  = "To be this good will take Sega ages";
+							Quotation[3]  = "PCGamingWiki does what Nintendon't";
+							Quotation[4]  = "The right file in the wrong place can make all the difference in the world";
+							Quotation[5]  = "I'm Commander Shepard, and this is my favorite wiki on the citadel";
+							Quotation[6]  = "When life gives you lemons, post games fixes";
+							Quotation[7]  = "You must construct additional game fixes";
+							Quotation[8]  = "Look buddy, I'm an Engineer - that means I solve practical problems";
+							Quotation[9]  = "PC gaming, up to 6 billion players";
+							Quotation[10] = "Now you're playing with DESKTOP power";
+							Quotation[11] = "Our game fixes are Super Effective!";
+							Quotation[12] = "Now you're thinking with game fixes";
+							Quotation[13] = "...Reticulating Splines...";
+							Quotation[14] = "Hey cousin! Let's go play some PC Games";
+							Quotation[15] = "It's dangerous to go alone, take this";
+							Quotation[16] = "If you look anywhere else for game fixes, you're gonna have a bad time";
+							Quotation[17] = "Broken PC games? 'Aint nobody got time for that";
+							Quotation[18] = "PCGamingWiki, it's what PCs crave";
+							Quotation[19] = "Performing game calibrations";
+							Quotation[20] = "Yeah, we're still waiting for Half-Life 3 too";
+							Quotation[21] = "First you will fix your game, then there will be cake";
+							Quotation[22] = "Beep.  Beep.  Beep.  Beep.";
+							Quotation[23] = "Have you tried turning it off and on again?";
+							Quotation[24] = "It costs 400,000 dollars to power this wiki for 12 seconds";
+							Quotation[25] = "The Citizen Kane of video game wikis";
+							var Q = Quotation.length;
+							var whichQuotation=Math.round(Math.random()*(Q-1));
+							function showQuotation(){document.write(Quotation[whichQuotation]);}
+							showQuotation();
 						</script>
 					</span>
 				</div>
