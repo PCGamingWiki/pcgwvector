@@ -344,6 +344,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 			
 			<div class='ipsList_inline right' style='margin-top:20px; margin-right:; float:right'>
 				<a href='http://twitter.com/PCGamingWiki' title='@PCGamingWiki'><img src='http://pcgamingwiki.com/images/1/1e/Header_Twitter_icon.svg' alt='Twitter' style="height:32px; width:32px" /></a>
+				<a href='https://plus.google.com/+PCGamingWiki' title='+PCGamingWiki'><img src='http://pcgamingwiki.com/images/0/0d/Header_Google+_icon.svg' alt='Google+' style="height:32px; width:32px" /></a>
 				<a href='https://www.facebook.com/PCGamingWiki' title='Facebook'><img src='http://pcgamingwiki.com/images/3/37/Header_Facebook_icon.svg' alt='Facebook' style="height:32px; width:32px" /></a>
 				<a href='http://steamcommunity.com/groups/pcgamingwiki' title='Steam'><img src='http://pcgamingwiki.com/images/8/84/Header_Steam_icon.svg' alt='Steam' style="height:32px; width:32px" /></a>
 			</div>
