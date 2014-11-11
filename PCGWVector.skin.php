@@ -446,33 +446,6 @@ class PCGWVectorTemplate extends BaseTemplate {
 	</div>
 	<!-- /custom header -->
 
-	<!-- DoubleClick code -->
-	<script type='text/javascript'>
-	var googletag = googletag || {};
-	googletag.cmd = googletag.cmd || [];
-	(function() {
-	var gads = document.createElement('script');
-	gads.async = true;
-	gads.type = 'text/javascript';
-	var useSSL = 'https:' == document.location.protocol;
-	gads.src = (useSSL ? 'https:' : 'http:') + 
-	'//www.googletagservices.com/tag/js/gpt.js';
-	var node = document.getElementsByTagName('script')[0];
-	node.parentNode.insertBefore(gads, node);
-	})();
-	</script>
-
-	<script type='text/javascript'>
-	googletag.cmd.push(function() {
-	googletag.defineSlot('/6928793/PCGW_leader1', [728, 90], 'div-gpt-ad-1382563418767-0').addService(googletag.pubads());
-	googletag.defineSlot('/6928793/PCGW_leader2', [728, 90], 'div-gpt-ad-1382563418767-1').addService(googletag.pubads());
-	googletag.defineSlot('/6928793/PCGW_MPU', [300, 250], 'div-gpt-ad-1382563418767-2').addService(googletag.pubads());
-	googletag.pubads().enableSingleRequest();
-	googletag.enableServices();
-	});
-	</script>
-	<!-- /DoubleClick code -->
-
 	<div id="wrapper"> <!-- wrapper -->
 		<div id="mw-page-base" class="noprint"></div>  
 	<div id="content_box">
@@ -508,24 +481,15 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<?php if(!$this->data['loggedin'] || $toggleGoogleAds == true) { ?>
 					<div style="height:90px; width:728px; margin-left:auto; margin-right:auto; margin-top:0px; margin-bottom:16px; background-image: url(http://pcgamingwiki.com/images/8/86/Message.gif); background-repeat:no-repeat">
 						<div>
-
-						<!-- ad google -->
-							<script type="text/javascript"><!--
-							google_ad_client = "ca-pub-0027458528988311";
-							/* PCGamingWiki banner */
-							google_ad_slot = "2657560885";
-							google_ad_width = 728;
-							google_ad_height = 90;
-							//-->
+							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+							<!-- PCGamingWiki banner -->
+							<ins class="adsbygoogle"
+							     style="display:inline-block;width:728px;height:90px"
+							     data-ad-client="ca-pub-0027458528988311"
+							     data-ad-slot="2657560885"></ins>
+							<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
 							</script>
-							
-						<!-- PCGW_leader1 -->
-							<div id='div-gpt-ad-1382563418767-0' style='width:728px; height:90px;'>
-							<script type='text/javascript'>
-							googletag.cmd.push(function() { googletag.display('div-gpt-ad-1382563418767-0'); });
-							</script>
-							</div>
-							
 						</div>
 					</div>
 				<?php } ?>
@@ -533,12 +497,15 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<!-- ad mpu -->
 				<?php if(!$this->data['loggedin']) { ?>
 					<div id="mpu" style="width:300px; height:250px; float:right; margin:0 0 7px 7px;">
-						<!-- PCGW_MPU -->
-						<div id='div-gpt-ad-1382563418767-2' style='width:300px; height:250px;'>
-						<script type='text/javascript'>
-						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1382563418767-2'); });
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- PCGamingWiki header square -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:300px;height:250px"
+						     data-ad-client="ca-pub-0027458528988311"
+						     data-ad-slot="5148791472"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
-						</div>
 					</div>
 				<?php } ?>
 				<!-- /ad mpu -->
@@ -554,12 +521,15 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<!-- ad footer banner -->
 				<?php if(!$this->data['loggedin'] || $toggleGoogleAds == true) { ?>			
 					<div style="width: 728px; height:90px; margin:0 auto 0 auto; padding:14px 0 0 0; clear:both">
-						<!-- PCGW_leader2 -->
-						<div id='div-gpt-ad-1382563418767-1' style='width:728px; height:90px;'>
-						<script type='text/javascript'>
-						googletag.cmd.push(function() { googletag.display('div-gpt-ad-1382563418767-1'); });
+						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+						<!-- PCGamingWiki footer banner -->
+						<ins class="adsbygoogle"
+						     style="display:inline-block;width:728px;height:90px"
+						     data-ad-client="ca-pub-0027458528988311"
+						     data-ad-slot="6687545807"></ins>
+						<script>
+						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
-						</div>
 					</div>
 				<?php } ?>
 				<!-- /ad footer banner -->
