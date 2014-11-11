@@ -579,7 +579,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<!-- ad sidebar -->
 				<?php if(!$this->data['loggedin'] || $toggleGoogleAds == true) { ?>				
 					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAAABCAMAAAA7MLYKAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEtQTFRF29vb2tra4ODg6urq5OTk4uLi6+vr7e3t7Ozs8PDw5+fn4+Pj4eHh3d3d39/f6Ojo5eXl6enp8fHx8/Pz8vLy7+/v3Nzc2dnZ2NjYnErj7QAAAD1JREFUeNq0wQUBACAMALDj7hf6JyUFGxzEnYhC9GaNPG1xVffGDErk/iCigLl1XV2xM49lfAxEaSM+AQYA9HMKuv4liFQAAAAASUVORK5CYII=" />
-					<div style="margin-top:8px; margin-left:0px; padding-bottom:3px">
+					<div style="margin-top:8px; margin-left:8px; padding-bottom:3px">
 						<!-- ad google -->
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 							<!-- PCGamingWiki wide skyscraper link -->
