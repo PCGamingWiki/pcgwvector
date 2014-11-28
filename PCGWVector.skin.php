@@ -638,12 +638,6 @@ class PCGWVectorTemplate extends BaseTemplate {
 			<div style="float:left; margin-left:30px">
 				<div style="margin-bottom:4px; font-weight:bold">Friends</div>
 				<a href="http://cheapshark.com">CheapShark</a><br/>
-				<a href="http://gamingonlinux.com">GamingOnLinux</a><br/>
-				<a href="http://pcgamesn.com">PCGamesN</a><br/>
-				<a href="http://rockpapershotgun.com">Rock Paper Shotgun</a><br/>
-			</div>
-			<div style="float:left; margin-left:30px">
-				<div style="height:22px"></div>
 				<a href="http://truepcgaming.com">True PC Gaming</a><br/>
 				<a href="http://wsgf.org">Widescreen Gaming Forum</a><br/>
 				<a href="http://andrewtsai.co.uk">Andrew Tsai</a><br/>
