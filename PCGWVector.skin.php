@@ -179,6 +179,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 					margin: 0 auto;
 					position: relative;
 					padding: 0 10px;
+					min-height: 1400px;
 				}
 				
 				#mw-page-base{
