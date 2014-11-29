@@ -32,9 +32,9 @@ function wfPrefHook( $user, &$preferences ) {
 		'label-message' => 'tog-sidebaripb',
 		'section' => 'rendering/skin',
 	);
-	$preferences['pcgwvector-headerpaypal'] = array(
+	$preferences['pcgwvector-headersupport'] = array(
 		'type' => 'toggle',
-		'label-message' => 'tog-headerpaypal',
+		'label-message' => 'tog-headersupport',
 		'section' => 'rendering/skin',
 	);
 	$preferences['pcgwvector-headersocial'] = array(
@@ -53,7 +53,7 @@ function wfPrefHook( $user, &$preferences ) {
 
 $wgDefaultUserOptions['pcgwvector-googleads'] = 0;
 $wgDefaultUserOptions['pcgwvector-sidebaripb'] = 1;
-$wgDefaultUserOptions['pcgwvector-headerpaypal'] = 1;
+$wgDefaultUserOptions['pcgwvector-headersupport'] = 1;
 $wgDefaultUserOptions['pcgwvector-headersocial'] = 1;
 $wgDefaultUserOptions['pcgwvector-headerquotes'] = 1;
 

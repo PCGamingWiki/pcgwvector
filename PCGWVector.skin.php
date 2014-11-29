@@ -143,7 +143,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 		$user = $this->getSkin()->getUser();
 		$toggleGoogleAds = $user->getOption( 'pcgwvector-googleads' );
 		$toggleIPBSidebar = $user->getOption( 'pcgwvector-sidebaripb' );
-		$togglePPWidget = $user->getOption( 'pcgwvector-headerpaypal' );
+		$togglePPWidget = $user->getOption( 'pcgwvector-headersupport' );
 		$toggleSocialWidgets = $user->getOption( 'pcgwvector-headersocial' );
 		$toggleQuotations = $user->getOption( 'pcgwvector-headerquotes' );
 
@@ -366,29 +366,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 			<?php }
 			if($togglePPWidget == true) { ?>
 			<div class='ipsList_inline right' style='margin-top:18px; margin-right:44px; float:right'>
-				<div style="font-size:10px; color:#5a5a5a; margin-bottom:-7px">
-					Found us useful? Help by <a href="http://pcgamingwiki.com/wiki/PCGamingWiki:Donate">donating</a>
-				</div>
-				<center><form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-				<input type="hidden" name="cmd" value="_s-xclick">
-				<input type="hidden" name="hosted_button_id" value="N624F8XPU7MT2">
-				<table style="width:136px">
-				<tr><td><input type="hidden" name="on0" value=""></td></tr><tr><td><select name="os0" style="font-size:10px">
-					<option value="Donate1">$1.00 USD - monthly</option>
-					<option value="Donate2">$2.00 USD - monthly</option>
-					<option value="Donate5">$5.00 USD - monthly</option>
-					<option value="Donate10">$10.00 USD - monthly</option>
-					<option value="Donate15">$15.00 USD - monthly</option>
-					<option value="Donate20">$20.00 USD - monthly</option>
-					<option value="Donate25">$25.00 USD - monthly</option>
-					<option value="Donate50">$50.00 USD - monthly</option>
-					<option value="Donate100">$100.00 USD - monthly</option>
-				</select> </td></tr>
-				</table>
-				<input type="hidden" name="currency_code" value="USD"></center>
-				<center><div style="margin-top:-3px"><input style="width:60px" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal � The safer, easier way to pay online.">
-				<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1"></center>
-				</form></div>
+				<a href="http://www.patreon.com/PCGamingWiki"><img src="http://pcgamingwiki.com/images/thumb/f/fe/Patreon_Logo.png/100px-Patreon_Logo.png" width="100px" height="23px" /></a>
 			</div>
 			<?php } 
 			if($toggleQuotations == true) { ?>

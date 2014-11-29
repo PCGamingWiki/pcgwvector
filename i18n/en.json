@@ -6,7 +6,7 @@
 	"pcgwvector-desc": "Modification of Vector for PCGamingWiki",
 	"tog-googleads": "Enable Google Ads",
 	"tog-sidebaripb": "Enable IP.Board widgets",
-	"tog-headerpaypal": "Enable PayPal widget",
+	"tog-headersupport": "Enable Patreon widget",
 	"tog-headersocial": "Enable social widgets",
 	"tog-headerquotes": "Enable quotations"
 }
