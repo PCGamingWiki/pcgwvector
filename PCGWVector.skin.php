@@ -179,7 +179,12 @@ class PCGWVectorTemplate extends BaseTemplate {
 					margin: 0 auto;
 					position: relative;
 					padding: 0 10px;
+					<?php if(!$this->data['loggedin'] || $toggleGoogleAds == true) { ?>
 					min-height: 1400px;
+					<?php }
+					if($this->data['loggedin']) {?>
+					min-height: 1100px;
+					<?php } ?>
 				}
 				
 				#mw-page-base{
