@@ -366,7 +366,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 			<?php }
 			if($togglePPWidget == true) { ?>
 			<div class='ipsList_inline right' style='margin-top:18px; margin-right:44px; float:right'>
-				<a href="http://www.patreon.com/PCGamingWiki"><img src="http://pcgamingwiki.com/images/thumb/f/fe/Patreon_Logo.png/100px-Patreon_Logo.png" width="100px" height="23px" /></a>
+				<a href="http://www.patreon.com/PCGamingWiki"><img src="http://pcgamingwiki.com/images/thumb/f/fe/Patreon_Logo.png/100px-Patreon_Logo.png" alt='Patreon' style="height:34px; width:100px" /></a>
 			</div>
 			<?php } 
 			if($toggleQuotations == true) { ?>
