@@ -567,7 +567,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 					<!-- Wiki Topics -->
 					<div class="sidebar_header">Topics</div>
 					<div class="sidebar_feed" style="min-height:30px; margin-bottom:16px">
-						<script type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=38&amp;k=7fbec0dd3ddf9293d965b1aa78a49591&amp;method=div' id='block-7fbec0dd3ddf9293d965b1aa78a49591'></script>
+						<script type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=66&amp;k=2d4ded25e1b39df4d438e8d3e359e6d6&amp;method=div' id='block-2d4ded25e1b39df4d438e8d3e359e6d6'></script>
 					</div>
 					<!-- Wiki Giveaways -->
 					<div class="sidebar_header">Giveaways</div>
