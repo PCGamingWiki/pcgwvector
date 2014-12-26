@@ -376,10 +376,10 @@ class PCGWVectorTemplate extends BaseTemplate {
 			<a href="<?php echo htmlspecialchars( $this->data['nav_urls']['mainpage']['href'] ) ?>"><img src="http://pcgamingwiki.com/images/BigWikiLogo.png" width="160" height="100" alt="Logo"></a>
 			
 			<div class='ipsList_inline right' style='margin-top:20px; margin-right:; float:right'>
-				<a href='http://twitter.com/PCGamingWiki' title='@PCGamingWiki'><img src='http://pcgamingwiki.com/images/1/1e/Header_Twitter_icon.svg' alt='Twitter' style="height:32px; width:32px" /></a>
-				<a href='https://plus.google.com/+PCGamingWiki' title='+PCGamingWiki'><img src='http://pcgamingwiki.com/images/0/0d/Header_Google+_icon.svg' alt='Google+' style="height:32px; width:32px" /></a>
-				<a href='https://www.facebook.com/PCGamingWiki' title='Facebook'><img src='http://pcgamingwiki.com/images/3/37/Header_Facebook_icon.svg' alt='Facebook' style="height:32px; width:32px" /></a>
-				<a href='http://steamcommunity.com/groups/pcgamingwiki' title='Steam'><img src='http://pcgamingwiki.com/images/8/84/Header_Steam_icon.svg' alt='Steam' style="height:32px; width:32px" /></a>
+				<a href='http://twitter.com/PCGamingWiki' title='@PCGamingWiki'><img src='http://pcgamingwiki.com/images/1/1e/Header_Twitter_icon.svg' alt='Twitter' width="32" height="32" /></a>
+				<a href='https://plus.google.com/+PCGamingWiki' title='+PCGamingWiki'><img src='http://pcgamingwiki.com/images/0/0d/Header_Google+_icon.svg' alt='Google+' width="32" height="32" /></a>
+				<a href='https://www.facebook.com/PCGamingWiki' title='Facebook'><img src='http://pcgamingwiki.com/images/3/37/Header_Facebook_icon.svg' alt='Facebook' width="32" height="32" /></a>
+				<a href='http://steamcommunity.com/groups/pcgamingwiki' title='Steam'><img src='http://pcgamingwiki.com/images/8/84/Header_Steam_icon.svg' alt='Steam' width="32" height="32" /></a>
 			</div>
 			<?php if($toggleSocialWidgets == true) { ?>
 			<div class='ipsList_inline right' style='margin-top:20px; margin-right:30px; float:right; width:100px'>
@@ -387,13 +387,13 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<a class="addthis_button_tweet" addthis:url="http://pcgamingwiki.com/wiki/Home" tw:via="PCGamingWiki"></a>
 				<div style="margin-top:3px"><a class="addthis_button_facebook_like" fb:like:href="https://www.facebook.com/PCGamingWiki"></a></div>
 				<script type="text/javascript">var addthis_config = {"data_track_addressbar":false};</script>
-				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-508ad2cd70837a5f"></script>
+				<script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-508ad2cd70837a5f"></script>
 				<!-- AddThis Button END -->
 			</div>
 			<?php }
 			if($togglePPWidget == true) { ?>
 			<div class='ipsList_inline right' style='margin-top:18px; margin-right:44px; float:right'>
-				<a href="http://www.patreon.com/PCGamingWiki"><img src="http://pcgamingwiki.com/images/thumb/f/fe/Patreon_Logo.png/150px-Patreon_Logo.png" alt='Patreon' style="height:34px; width:150px" /></a>
+				<a href="http://www.patreon.com/PCGamingWiki"><img src="http://pcgamingwiki.com/images/thumb/f/fe/Patreon_Logo.png/150px-Patreon_Logo.png" alt='Patreon' width="150" height="34" /></a>
 			</div>
 			<?php } 
 			if($toggleQuotations == true) { ?>
