@@ -557,27 +557,27 @@ class PCGWVectorTemplate extends BaseTemplate {
 					<!-- Wiki News -->
 					<div class="sidebar_header">News</div>
 					<div class="sidebar_feed">
-						<script type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=54&amp;k=2762865910875e1720e6fb0d32e5215a&amp;method=div' id='block-2762865910875e1720e6fb0d32e5215a'></script>
+						<script async type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=54&amp;k=2762865910875e1720e6fb0d32e5215a&amp;method=div' id='block-2762865910875e1720e6fb0d32e5215a'></script>
 					</div>
 					<!-- Wiki Replies -->
 					<div class="sidebar_header">Replies</div>
 					<div class="sidebar_feed" style="min-height:30px; margin-bottom:16px">
-						<script type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=52&amp;k=c320a2c3ddaeda32ffc28f023d51b84d&amp;method=div' id='block-c320a2c3ddaeda32ffc28f023d51b84d'></script>
+						<script async type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=52&amp;k=c320a2c3ddaeda32ffc28f023d51b84d&amp;method=div' id='block-c320a2c3ddaeda32ffc28f023d51b84d'></script>
 					</div>
 					<!-- Wiki Topics -->
 					<div class="sidebar_header">Topics</div>
 					<div class="sidebar_feed" style="min-height:30px; margin-bottom:16px">
-						<script type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=66&amp;k=2d4ded25e1b39df4d438e8d3e359e6d6&amp;method=div' id='block-2d4ded25e1b39df4d438e8d3e359e6d6'></script>
+						<script async type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=66&amp;k=2d4ded25e1b39df4d438e8d3e359e6d6&amp;method=div' id='block-2d4ded25e1b39df4d438e8d3e359e6d6'></script>
 					</div>
 					<!-- Wiki Giveaways -->
 					<div class="sidebar_header">Giveaways</div>
 					<div class="sidebar_feed" style="min-height:30px">
-						<script type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=55&amp;k=eb5dcba8844f1b25d6c89550a931b2f0&amp;method=div' id='block-eb5dcba8844f1b25d6c89550a931b2f0'></script>
+						<script async type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=55&amp;k=eb5dcba8844f1b25d6c89550a931b2f0&amp;method=div' id='block-eb5dcba8844f1b25d6c89550a931b2f0'></script>
 					</div>
 					<!-- Wiki Assignments -->
 					<div class="sidebar_header">Review codes</div>
 					<div class="sidebar_feed" style="min-height:30px">
-						<script type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=56&amp;k=becd540a09e5c075c9e36adcafbc8bc0&amp;method=div' id='block-becd540a09e5c075c9e36adcafbc8bc0'></script>
+						<script async type='text/javascript' src='http://community.pcgamingwiki.com/external.php?id=56&amp;k=becd540a09e5c075c9e36adcafbc8bc0&amp;method=div' id='block-becd540a09e5c075c9e36adcafbc8bc0'></script>
 					</div>
 				<!-- /IPB feeds -->
 				<?php } ?>
