@@ -151,7 +151,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 		$this->html( 'headelement' );
 ?>
 			<!-- custom CSS -->
-			<style>
+			<style type="text/css">
 				body{ 
 					background: #E5ECF9;
 				}
@@ -332,8 +332,8 @@ class PCGWVectorTemplate extends BaseTemplate {
 			<?php if($toggleIPBSidebar == true) { ?>
 			<!-- IPB stuff -->
 			<script type='text/javascript'>var _ccsjQ = jQuery;</script>
-			<link rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/ipc_blocks/compiled.css' />
-			<link rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/style_css/css_1/ipb_common.css' />
+			<link property='stylesheet' rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/ipc_blocks/compiled.css' />
+			<link property='stylesheet' rel='stylesheet' media='screen' type='text/css' href='http://community.pcgamingwiki.com/public/style_css/css_1/ipb_common.css' />
 			<!-- /IPB stuff -->
 			<?php } ?>
 		
@@ -400,7 +400,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 			<div style="position: relative; height: 0px; margin: 5px auto;" class="main_width">
 				<div style="margin-right: 5px; text-align: right;">
 					<span style="font-size: 16px; text-align: right; text-transform: uppercase; font-family: Courier, serif; font-weight: 400;">
-						<script language="JavaScript">
+						<script>
 							var Quotation=new Array() 
 							Quotation[0]  = "PC gaming since 2012";
 							Quotation[1]  = "Welcome to PCGamingWiki, it's safer here";
