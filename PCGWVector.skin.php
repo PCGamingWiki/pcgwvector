@@ -419,7 +419,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 							Quotation[14] = "Hey cousin! Let's go play some PC Games";
 							Quotation[15] = "It's dangerous to go alone, take this";
 							Quotation[16] = "If you look anywhere else for game fixes, you're gonna have a bad time";
-							Quotation[17] = "Broken PC games? 'Aint nobody got time for that";
+							Quotation[17] = "Broken PC games? Ain't nobody got time for that";
 							Quotation[18] = "PCGamingWiki, it's what PCs crave";
 							Quotation[19] = "Performing game calibrations";
 							Quotation[20] = "Yeah, we're still waiting for Half-Life 3 too";
