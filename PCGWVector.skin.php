@@ -452,6 +452,7 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<li class="left"><a href="http://community.pcgamingwiki.com/files">Files</a></li>
 				<li class="left"><a href="http://community.pcgamingwiki.com/gallery">Gallery</a></li>
 				<li class="left"><a href="http://community.pcgamingwiki.com/page/irc">IRC</a></li>
+				<li class="left"><a href="http://pcgamingwiki.com/wiki/PCGamingWiki:Extension">Extension</a></li>
 			</ul>
 		</div>
 	</div>
