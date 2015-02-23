@@ -465,30 +465,20 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<!-- ad horizontal banner -->
 				<?php if(!$this->data['loggedin'] || $toggleGoogleAds == true) { ?>
 					<div style="height:90px; width:728px; margin-left:auto; margin-right:auto; margin-top:0px; margin-bottom:16px; background-image: url(http://pcgamingwiki.com/images/8/86/Message.gif); background-repeat:no-repeat">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- PCGamingWiki banner -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:728px;height:90px"
-						     data-ad-client="ca-pub-0027458528988311"
-						     data-ad-slot="2657560885"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+						<!-- Ad Unit [942] PCGamingWiki_Top_Leader -->
+						<div id="switch_placeholder_bc1f2153e841ae9ba1effcfa9cbb6661" class="switch_placeholder"></div>
+						<script> (__scads = window.__scads || []).push({"z":942,"targetId":"switch_placeholder_bc1f2153e841ae9ba1effcfa9cbb6661","domain":"delivery.e.switchadhub.com","width":"728","height":"90"}); </script>
+						<script async src="//delivery.e.switchadhub.com/adserver/sat.js?v=2"></script>
 					</div>
 				<?php } ?>
 				<!-- /ad horizontal banner -->
 				<!-- ad mpu -->
 				<?php if(!$this->data['loggedin']) { ?>
 					<div id="mpu" style="width:300px; height:250px; float:right; margin:0 0 7px 7px;">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- PCGamingWiki header square -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:300px;height:250px"
-						     data-ad-client="ca-pub-0027458528988311"
-						     data-ad-slot="5148791472"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+						<!-- Ad Unit [941] PCGamingWiki_Top_MPU -->
+						<div id="switch_placeholder_9f59d114e6886c0c7b96b55b5d96e64b" class="switch_placeholder"></div>
+						<script> (__scads = window.__scads || []).push({"z":941,"targetId":"switch_placeholder_9f59d114e6886c0c7b96b55b5d96e64b","domain":"delivery.e.switchadhub.com","width":"300","height":"250"}); </script>
+						<script async src="//delivery.e.switchadhub.com/adserver/sat.js?v=2"></script>
 					</div>
 				<?php } ?>
 				<!-- /ad mpu -->
@@ -504,15 +494,10 @@ class PCGWVectorTemplate extends BaseTemplate {
 				<!-- ad footer banner -->
 				<?php if(!$this->data['loggedin'] || $toggleGoogleAds == true) { ?>			
 					<div style="width: 728px; height:90px; margin:0 auto 0 auto; padding:14px 0 0 0; clear:both">
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						<!-- PCGamingWiki footer banner -->
-						<ins class="adsbygoogle"
-						     style="display:inline-block;width:728px;height:90px"
-						     data-ad-client="ca-pub-0027458528988311"
-						     data-ad-slot="6687545807"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
+						<!-- Ad Unit [943] PCGamingWiki_Bottom_Leader -->
+						<div id="switch_placeholder_14856fbb4a03fed8f461bc3f700fefca" class="switch_placeholder"></div>
+						<script> (__scads = window.__scads || []).push({"z":943,"targetId":"switch_placeholder_14856fbb4a03fed8f461bc3f700fefca","domain":"delivery.e.switchadhub.com","width":"728","height":"90"}); </script>
+						<script async src="//delivery.e.switchadhub.com/adserver/sat.js?v=2"></script>
 					</div>
 				<?php } ?>
 				<!-- /ad footer banner -->
@@ -636,6 +621,19 @@ class PCGWVectorTemplate extends BaseTemplate {
 		<?php $this->printTrail(); ?>
 	</div> <!-- /content_box -->
 	</div> <!-- /Wrapper -->
+
+<!-- PCGamesN Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-31105670-10', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- /PCGamesN Google Analytics -->
 
 	</body>
 </html>
